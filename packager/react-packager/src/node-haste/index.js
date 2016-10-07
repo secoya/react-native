@@ -68,7 +68,7 @@ class DependencyGraph {
       providesModuleNodeModules,
       platforms: new Set(platforms || []),
       preferNativePlatform: preferNativePlatform || false,
-      extensions: extensions || ['js', 'json'],
+      extensions: extensions || ['js', 'json', 'tsx', 'ts'],
       mocksPattern,
       extractRequires,
       transformCode,
